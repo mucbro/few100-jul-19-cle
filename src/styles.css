@@ -1,3 +1,64 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mucbro 
+0
+0 0 JeffryGonzalez/few100-jul19-cle
+generated from JeffryGonzalez/frontendweb100-jmg2
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
+few100-jul19-cle/src/styles.css
+ Jeff Gonzalez almost done with game
+a383abe 1 hour ago
+33 lines (30 sloc)  583 Bytes
+    
 h1 {
     color:blueviolet
 }
+
+.square {
+    width: 22.7%;
+    background-color: purple;
+    padding-bottom: 22.7%;
+    float: left;
+    margin: 2%;
+    border-radius: 18.3%;
+    transition: background-color 1s;
+    transition: border-radius 1s;
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+.square.winner {
+    border-radius: 25%;
+    background-color: gold;
+    border: 3px solid black;
+    cursor: default;
+}
+
+.square.loser {
+    border-radius: 25%;
+    background-color: gray;
+    border: 3px solid pink;
+    cursor: default;
+}
+[data-secret] {
+    border: 3px solid red;
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
